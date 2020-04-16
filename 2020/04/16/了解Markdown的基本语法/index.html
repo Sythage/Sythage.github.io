@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Sythage &amp;&amp; ZengPan的BLOG  - Markdown 的基本语法（5分钟学会） 
+  </title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  
+  <link rel="shortcut icon" href="/favicon.ico" />
+  
+
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <link href="https://google-fonts.mirrors.sjtug.sjtu.edu.cn/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+
+  
+  
+
+  
+<link rel="stylesheet" href="/css/iDisqus.min.css">
+
+  
+<script src="/js/iDisqus.min.js"></script>
+
+
+  <script>
+  var disq = new iDisqus('comment', {
+      forum: 'pcrab-blog',
+      api: 'https://disqus.pcrab.ml',
+      site: 'https://pcrab.ml',
+      mode: 1,
+      timeout: 3000,
+      init: true
+  });
+  </script>
+  
+  
+
+  <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+  <div class="title">
+  <img class="title_img" src="https://pcrab.ml/images/icon.png"/><br>
+  <p id="site_title">&nbspSythage && ZengPan的BLOG&nbsp</p>
+</div>
+
+  <div class="navi">
+    <a id="navi_item" href="/#" class="menu-item-link">Home</a>
+    <a id="navi_item" href="/tags" class="menu-item-link">tags</a>
+    <a id="navi_item" href="/about" class="menu-item-link">about</a>
+    <a id="navi_item" href="/search" class="menu-item-link">search</a>
+</div>
+
+<hr/>
+
+
+  <div class="main">
+    <post>
+
+  <div class="post_title">
+    Markdown 的基本语法（5分钟学会）
+  </div>
+
+  <br/><br/>
+
+  <div id="post_content">
+    <h1 id="Markdown的基本语法"><a href="#Markdown的基本语法" class="headerlink" title="Markdown的基本语法"></a>Markdown的基本语法</h1><h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="comment"># 		一级标题 </span></span><br><span class="line">$ <span class="comment">## 		二级标题</span></span><br><span class="line">$ <span class="comment">### 		三级标题</span></span><br><span class="line">$ <span class="comment">####		四级标题	</span></span><br><span class="line">$ <span class="comment">##### 	五级标题</span></span><br><span class="line">$ <span class="comment">######	六级标题</span></span><br></pre></td></tr></table></figure>
+<pre><code>效果如下：</code></pre><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h2 id="2-列表"><a href="#2-列表" class="headerlink" title="2.列表"></a>2.列表</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="comment">####无序列表</span></span><br><span class="line">$ * 1</span><br><span class="line">$ * 2</span><br><span class="line">$ * 3</span><br><span class="line">$ <span class="comment">####有序列表</span></span><br><span class="line">$ 1. 1</span><br><span class="line">$ 2. 2</span><br><span class="line">$ 3. 3</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><ul>
+<li>1</li>
+<li>2<ul>
+<li>3</li>
+</ul>
+</li>
+</ul>
+<h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><ol>
+<li>1</li>
+<li>2</li>
+<li>3</li>
+</ol>
+<h2 id="3-引用"><a href="#3-引用" class="headerlink" title="3.引用"></a>3.引用</h2><p><strong>如果你需要引用以下段别处的句子，那么就要引用的格式。)</strong><br><code>&gt;例如这样</code><br>只需在文本前加入<code>&gt;</code>这种尖括号即可</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; 这里是引用</span><br><span class="line">要注意符号和文本的空格</span><br></pre></td></tr></table></figure>
+
+<p>效果如下：</p>
+<blockquote>
+<p>这里是引用</p>
+</blockquote>
+<p>要注意符号和文本的空格</p>
+<h2 id="4-图片和链接"><a href="#4-图片和链接" class="headerlink" title="4.图片和链接"></a>4.图片和链接</h2><p>插入链接与插入图片的语法很像， 区别在一个<code>!</code>号</p>
+<p><strong>插入图片的地址需要图床（..）</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="comment">#### 插入链接</span></span><br><span class="line">$ [Baidu](http://baidu.com)</span><br><span class="line">$ <span class="comment">#### 插入图片</span></span><br><span class="line">$ ![Mou icon](http://mouapp.com/Mou_128.png)</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<h4 id="插入链接"><a href="#插入链接" class="headerlink" title="插入链接"></a>插入链接</h4><p> <a href="http://baidu.com" target="_blank" rel="noopener">Baidu</a></p>
+<h4 id="插入图片-用个别人的，我还不会弄"><a href="#插入图片-用个别人的，我还不会弄" class="headerlink" title="插入图片(用个别人的，我还不会弄)"></a>插入图片(用个别人的，我还不会弄)</h4><p><img src="http://mouapp.com/Mou_128.png" alt="Mou icon"></p>
+<h2 id="5-粗体与斜体"><a href="#5-粗体与斜体" class="headerlink" title="5.粗体与斜体"></a>5.粗体与斜体</h2><p>上代码！</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">粗体：**（这是粗体）** </span><br><span class="line">斜体： *（这是斜体）*</span><br></pre></td></tr></table></figure>
+
+<p>粗体：<strong>（这是粗体）</strong> (一般的)<br>斜体： <em>（这是斜体）</em>  (一般的)</p>
+<h2 id="6-表格"><a href="#6-表格" class="headerlink" title="6.表格"></a>6.表格</h2><p>比较累人的表格：<br>| 名字    | 年龄    | 性别 |</p>
+<p>| ——|:——|:—:|</p>
+<p>|张三    |18    |男   |</p>
+<p>|李四    |21    |女   |</p>
+<p>|王五    |55    |男   |</p>
+<p>| Table        | Are        | Cool    |</p>
+<p>| ————–|:————-:| —–:|     </p>
+<p>| col 3 is    | right-aligned    | $1600    |</p>
+<p>| col 2 is     | centered    |   %12    |</p>
+<p>| zebra stripes | are neat    |    $1 |</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">| 名字	| 年龄	| 性别 |</span><br><span class="line">| ------|:------|:---:|</span><br><span class="line">|张三	|18	|男   |</span><br><span class="line">|李四	|21	|女   |</span><br><span class="line">|王五	|55	|男   |</span><br><span class="line">| Table		| Are		| Cool	|</span><br><span class="line">| --------------|:-------------:| -----:| 	</span><br><span class="line">| col 3 is	| right-aligned	| <span class="variable">$1600</span>	|</span><br><span class="line">| col 2 is 	| centered	|   %12	|</span><br><span class="line">| zebra stripes | are neat	|    <span class="variable">$1</span> |</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="7-代码框"><a href="#7-代码框" class="headerlink" title="7.代码框"></a>7.代码框</h2><p>&lt; <code>code</code><br>用两个` 将代码包裹起来<br>&lt;&lt;  <code>bash</code></p>
+<h2 id="8-分割线"><a href="#8-分割线" class="headerlink" title="8.分割线"></a>8.分割线</h2><p><strong>分割线的语法只需另起一行，连续输入三个星号即可</strong></p>
+<p><code>***</code><br>分割线</p>
+<hr>
+<h2 id="9-流程图"><a href="#9-流程图" class="headerlink" title="9.流程图"></a>9.流程图</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: 开始</span><br><span class="line">op&#x3D;&gt;operation: My Operatin</span><br><span class="line">cond&#x3D;&gt;condition: Yes or No?</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(No)-&gt;op</span><br><span class="line">&amp;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="10-超链接"><a href="#10-超链接" class="headerlink" title="10.超链接"></a>10.超链接</h2><p><strong>语法：</strong><br>（<code>）
+    [超链接名]（超链接地址 ”超链接title“）
+    title可加可不加
+（</code>)<br><strong>示例：</strong><br>(<code>)
+    [简书](http://jianshu.com)
+    [百度](http://baidu.com)
+（</code>）</p>
+<p>效果如下：</p>
+<p><a href="http://jianshu.com" target="_blank" rel="noopener">简书</a><br><a href="http://baidu.com" target="_blank" rel="noopener">百度</a></p>
+<h2 id="已知的就这些了，以后看见了，学会了再添加上来"><a href="#已知的就这些了，以后看见了，学会了再添加上来" class="headerlink" title="已知的就这些了，以后看见了，学会了再添加上来"></a>已知的就这些了，以后看见了，学会了再添加上来</h2><p><strong>GO  GO  GO  GO  GO!</strong></p>
+
+  </div>
+
+  <br/><br/><br/><br/>
+
+  
+
+  <div class="copyright" >
+
+    <a class="license-image" rel="license" href="http://creativecommons.org/licenses/by
+-nc
+-sa
+/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
+
+    <div>
+
+      <p>本作品采用
+
+      <a class="license-word-hyper" rel="license" href="http://creativecommons.org/licenses/by
+-nc
+-sa
+/4.0/">
+        知识共享署名
+-非商业性使用
+-相同方式共享
+4.0 国际许可协议</a>
+
+      进行许可。</p>
+
+    </div>
+
+    </div>
+
+
+  <div id="top">
+    <a href="#">▲</a>
+    <a href="#footer">▼</a>
+</div>
+
+  
+
+
+<div id="comment"></div>
+
+
+
+
+
+</post>
+
+  </div>
+
+  <foot id="footer">
+  <hr class="boldline"/>
+  <p class="center font">
+    &copy - <a href="https://pcrab.ml" target="_blank" rel="noopener">Pcrab</a> -  2019 -  2020 - Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>  Themed by <a href="https://github.com/pcrab/hexo-theme-quark" target="_blank" rel="noopener"> quark </a> 
+  </p>
+  <br/>
+</foot>
+
+</body>
+</html>
